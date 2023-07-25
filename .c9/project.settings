@@ -1,0 +1,70 @@
+{
+    "extensions": {
+        "@editor.acceptSuggestionOnEnter": "on",
+        "@editor.snippetSuggestions": "top",
+        "@editor.suggest.preview": true,
+        "@editor.suggest.showMethods": true
+    },
+    "language": {
+        "tern_defs": {
+            "json()": {
+                "browser": {
+                    "enabled": true
+                },
+                "ecma5": {
+                    "enabled": true
+                },
+                "jQuery": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+    "launchconfigurations": {
+        "@currentconfig": ""
+    },
+    "python": {
+        "@path": "/usr/local/lib/python3.4/dist-packages:/usr/local/lib/python3.5/dist-packages"
+    },
+    "run": {
+        "configs": {
+            "@inited": "true",
+            "json()": {}
+        }
+    },
+    "welcome": {
+        "@first": true
+    },
+    "workspace": {
+        "@folders": [
+            {
+                "name": "vpc",
+                "path": "/eks-blueprint/environment/.terraform/modules/vpc"
+            },
+            {
+                "name": "eks_cluster.eks",
+                "path": "/eks-blueprint/eks-blue/.terraform/modules/eks_cluster.eks"
+            },
+            {
+                "name": "eks_cluster.eks.kms",
+                "path": "/eks-blueprint/eks-blue/.terraform/modules/eks_cluster.eks.kms"
+            },
+            {
+                "name": "eks_cluster.eks_blueprints_platform_teams",
+                "path": "/eks-blueprint/eks-blue/.terraform/modules/eks_cluster.eks_blueprints_platform_teams"
+            },
+            {
+                "name": "eks_cluster.eks_blueprints_dev_teams",
+                "path": "/eks-blueprint/eks-blue/.terraform/modules/eks_cluster.eks_blueprints_dev_teams"
+            },
+            {
+                "name": "eks_cluster.kubernetes_addons",
+                "path": "/eks-blueprint/eks-blue/.terraform/modules/eks_cluster.kubernetes_addons"
+            },
+            {
+                "name": "eks_cluster.kubernetes_addons.vault",
+                "path": "/eks-blueprint/eks-blue/.terraform/modules/eks_cluster.kubernetes_addons.vault"
+            }
+        ]
+    }
+}

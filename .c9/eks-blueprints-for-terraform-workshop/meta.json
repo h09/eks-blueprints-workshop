@@ -1,0 +1,5 @@
+{
+  "id": "eks-blueprints-for-terraform-workshop",
+  "configuration": "file:///home/ec2-user/environment/.c9",
+  "name": "eks-blueprints-for-terraform-workshop"
+}
